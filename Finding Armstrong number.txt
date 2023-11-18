@@ -1,0 +1,14 @@
+var num= 153;
+var a=num;
+var remainder;
+while(a>0){
+remainder=a%10;
+sum+=remainder*remainder*remainder;
+a=a/10;
+}
+if(sum==a){
+console.log("The given number is an armstrong number");
+}
+else{
+console.log("The given number is not an armstrong number");
+}
