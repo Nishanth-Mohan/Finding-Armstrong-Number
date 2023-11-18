@@ -1,5 +1,6 @@
 var num= 153;
 var a=num;
+var sum=0;
 var remainder;
 while(a>0){
 remainder=a%10;
